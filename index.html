@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Codystar:wght@300;400&family=Foldit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="name">QuizAPP by Abdullah</h1>
+
+    <div class="score none">
+      <progress class="prog" max="15" value="1"></progress>
+      <div class="info">
+        <p class="qustion__num__info">Question 1 / 15</p>
+        <p class="score__display">0 / 150</p>
+      </div>
+    </div>
+
+    <div class="welcome">
+      <p class="pragraph">Test Your Programming knowledge with 15 questions!</p>
+      <button class="btn btn--start">Lets Start!</button>
+    </div>
+
+    <div class="result none">
+      <p class="pragraph display--result">you scored 50 out of 150!</p>
+      <button class="btn restart">Restart</button>
+    </div>
+
+    <div class="questions-container none">
+      <p class="question__display pragraph">
+        Test Your Programming knowledge with 15 questions!
+      </p>
+      <div class="questions">
+        <button class="btn--option">option</button>
+        <button class="btn--option">option</button>
+        <button class="btn--option">option</button>
+        <button class="btn--option">option</button>
+      </div>
+      <div class="info">
+        <div class="timer">10:00</div>
+        <div><button class="next btn none">Next</button></div>
+      </div>
+    </div>
+    <footer><p>© 2024 Abdullah Gailani. All rights reserved.</p></footer>
+    <script src="./questions.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

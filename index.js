@@ -174,6 +174,7 @@ nextBtn.addEventListener("click", function () {
   app.nextQuestion();
   app.restoreOptions();
   app.updateUI();
+  app.closeNextBtn();
 });
 
 restartBtn.addEventListener("click", function () {

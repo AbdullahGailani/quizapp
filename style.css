@@ -151,6 +151,7 @@ body {
 @media (max-width: 544px) {
   .name {
     font-size: 3rem;
+    font-weight: 400;
   }
   .score {
     width: 20rem;
